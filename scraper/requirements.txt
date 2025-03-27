@@ -1,0 +1,6 @@
+playwright
+beautifulsoup4
+fastapi
+uvicorn
+rq
+redis

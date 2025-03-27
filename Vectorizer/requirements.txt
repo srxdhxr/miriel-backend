@@ -1,0 +1,14 @@
+pydantic
+sqlmodel
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-core
+faiss-cpu
+sentence-transformers
+nltk
+rq
+python-dotenv
+numpy
+psycopg2-binary
