@@ -15,10 +15,10 @@ services:
       - "8005:8000"
     environment:
       - DB_HOST=host.docker.internal
-      - DB_PORT=5432
-      - DB_USER=postgres
-      - DB_PASSWORD=Srnnkp@4999
-      - DB_NAME=mirialdbdev
+      - DB_PORT=<add port here>
+      - DB_USER=<add user here>
+      - DB_PASSWORD=<add password here>
+      - DB_NAME=<add database name here>
       - SCRAPER_SERVICE_URL=http://scraper:8001
       - VECTORIZER_SERVICE_URL=http://vectorizer:8000
     extra_hosts:
