@@ -1,6 +1,6 @@
-# Mirial - AI-Powered Document Scraping and RAG System
+# Miriel - AI-Powered Document Scraping and RAG System
 
-Mirial is a modular and scalable system for web scraping, document processing, and intelligent querying using Retrieval-Augmented Generation (RAG). The system consists of several microservices that work together to scrape web content, process and vectorize it, and provide a powerful RAG interface.
+Miriel is a modular and scalable system for web scraping, document processing, and intelligent querying using Retrieval-Augmented Generation (RAG). The system consists of several microservices that work together to scrape web content, process and vectorize it, and provide a powerful RAG interface.
 
 ## System Architecture
 
@@ -23,7 +23,7 @@ The system consists of the following microservices:
 2. Create a new database for the application:
 
 ```sql
-CREATE DATABASE mirialdbdev;
+CREATE DATABASE Mirieldbdev;
 ```
 
 3. Ensure your PostgreSQL server is accessible from Docker containers (adjust pg_hba.conf and postgresql.conf as needed).
@@ -40,7 +40,7 @@ environment:
   - DB_PORT=5432 # Change if your PostgreSQL uses a different port
   - DB_USER=postgres # Change to your PostgreSQL username
   - DB_PASSWORD=yourpassword # Change to your PostgreSQL password
-  - DB_NAME=mirialdbdev # Change to your database name
+  - DB_NAME=Mirieldbdev # Change to your database name
 ```
 
 ### Running on CPU Instead of CUDA
@@ -74,7 +74,7 @@ By default, the Mistral service is configured to run on NVIDIA CUDA GPUs. If you
 
    ```bash
    git clone <repository_url>
-   cd mirial
+   cd Miriel
    ```
 
 2. Build and start the services:
